@@ -2,3 +2,32 @@
     h1{
         color: blue;
     }
+
+    .flex-container{
+        display: flex;
+        padding: 10px;
+        height: 200px;
+        border: 3px solid grey;
+        width: 400px;
+    }
+
+    .one{
+        border: 2px solid brown;
+        height: 100px;
+        flex-shrink: 2;
+        width: 200px;
+    }
+
+    .two{
+        height: 80px;
+        border: 2px solid pink;
+        width: 200px;
+        flex-shrink: 1;
+    }
+
+    .three{
+        height: 80px;
+        border: 2px solid blue;
+        width: 200px;
+        flex-shrink: 1;
+    }
